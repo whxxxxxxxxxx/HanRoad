@@ -1,0 +1,48 @@
+game1:
+  "用户行至汉朝时期设在边关的驿站，并与汉朝戍守士兵打招呼"
+  set_screen game1 0 slide-top 1000
+  talk soldier idle "你做何事，前往何处？？"
+  talk game1playerCommonClothes idle "我将前往西域匈奴处去解救张骞大人，他被匈奴囚禁数载，危在旦夕。"
+  talk soldier idle "想必您这一路舟车劳顿，我这就准备快马和新衣。"
+  "士兵端出一件由不同颜色组成的丝织物。"
+  talk soldier idle "<a href=\"https:\/\/pics3.baidu.com\/feed\/8c1001e93901213fd0532e4598c6c2dd2e2e95f1.jpeg@f_auto?token=08cfc547874c781093d9f93db062f5a8\" target=\"_blank\">点击查看图片</a>"
+  talk game1playerCommonClothes idle "多谢！这新衣样式真是新颖！"
+  talk soldier idle "这是由不同颜色的丝织物拼接而成，边关将士多着此类服裳。"
+  "用户换上百衲衣，情节结束。"
+  jump game1_screen2
+
+game1_screen2:
+  "用户躲过匈奴士兵的审查后，前往张骞牢房。"
+  set_screen game1_cell 0 slide-top 1000 
+  talk game1playerHundredClothes idle "(压低声音)大人，我是大汉来的使者，特意前来营救您，这是我带给您的吃食。"
+  talk ZhangQian idle "多谢，多谢啊！"
+  "由于过度饥饿，张骞一边狼吞虎咽一边流泪。"
+  talk ZhangQian idle "请问阁下，陛下是否已经知晓我的境况？大汉那边是否一切安好？"
+  talk game1playerHundredClothes idle "大人不必担心，陛下已然了解您的境遇，特派我护送您平安回汉。"
+  "张骞连连道谢，并迅速吃完饭菜。然后将密信偷偷递与用户，用户需要将密信藏在袖中。"
+  talk ZhangQian idle "这是我暗中搜集到的匈奴秘况，请您一定要即使传信给陛下！"
+  talk game1playerHundredClothes idle "大人放心，我一定会尽快想办法救出您。"
+  jump game1_screen3
+
+game1_screen3:
+  set_screen game1_street 0 slide-top 1000
+  "用户经历跋涉后终于来到了龟兹国。这里与大汉完全不一样，是古来西域产出铁器之地，且人民能歌善舞，其中龟兹乐舞形成于西汉时期，不仅有当地特色风情，还融合了汉朝的音律，在隋唐时期走向流行和鼎盛时代。"
+  talk game1playerHundredClothes idle "(走向人群）这是什么神奇的音乐，真是前所未闻！"
+  play music qiuci
+  talk Passerby idle "这是我们的龟兹乐舞。曾经乌孙公主嫁与龟兹王绛宾，先辈们为了欢迎公主，就编制了这些舞曲。"
+  talk game1playerHundredClothes idle "仔细听，似乎还有中原的音调呢！"
+  talk Passerby idle "绛宾先王时常携公主入汉朝贺，并带领族人学习了大量中原的音律曲调。所以乐舞不仅是龟兹音律，还有大汉风韵。"
+  "用户加入人群载歌载舞，点击前往下一情节。"
+  stop music 0
+  jump game1_screen4
+
+game1_screen4:
+  set_screen game1_blacksmith 0 slide-top 1000
+  "一家充满西域风情的铁器铺出现在用户眼前，一个龟兹工匠正在打铁。"
+  talk game1playerHundredClothes idle "这与我大汉的铁器真是不一样呢!"
+  talk Blacksmith idle "客官不如仔细看看我们龟兹铁器的样式，可以说，龟兹就是西域铁器重镇，往来购买铁器的人络绎不绝。"
+  "用户拿起其中一件。"
+  talk game1playerHundredClothes idle "真是精美又实用啊！"
+  jump main
+
+

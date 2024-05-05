@@ -1,0 +1,39 @@
+game3:
+  set_screen game3_desert 0 slide-top 1000
+  "张骞率领的使团已深入西域，长途跋涉让他们疲惫不堪，但前方的未知仍让他们充满好奇。"
+  "你将扮演张骞，带领骆驼队寻找绿洲"
+  talk PlayerZhangQian idle "（望着远方）我们已经走了这么远，但仍需警惕，西域之地，变数诸多。"
+  set_screen game3_desert_forward 0 slide-top 1000
+  talk MissionMember1 idle "（递过水壶）大人，喝点水吧。我们接下来该往哪个方向走？"
+  set_screen game3_desert_kettle 0 slide-top 1000
+  talk PlayerZhangQian idle "（接过水壶，拿出地图，沉思片刻）根据地图，我们应该继续向西，但听闻前方有沙暴频繁，我们需小心应对。"
+  set_screen game3_desert_map 0 slide-top 1000
+  talk MissionMember2 idle "（担忧）沙暴？那我们岂不是会迷失方向？"
+  talk PlayerZhangQian idle "（微笑）不必担心，我已安排有经验的向导随行。只要大家团结一心，定能平安度过。"
+  "此时，远处传来马蹄声，一名向导疾驰而来。"
+  talk Guide idle "（气喘吁吁）大人，前方五十里外确实有沙暴迹象，我们需要找个避风的地方等待。"
+  set_screen game3_desert_guide 0 slide-top 1000
+  "使团成员们迅速行动起来，寻找避风之地，准备迎接即将到来的沙暴。"
+  jump game3_screen2
+
+game3_screen2:
+  "随着沙暴的逼近，张骞和使团成员们躲入了沙丘背后，等待着沙尘暴的退去。"
+  set_screen game3_desert_miss 0 slide-top 1000
+  talk PlayerZhangQian idle "(面色凝重，观察着远方越来越近的沙尘暴）大家快，再靠近些沙丘，确保安全。"
+  talk MissionMember1 idle "（焦急）大人，这沙尘暴来得太突然了，我们真的能平安度过吗？"
+  talk PlayerZhangQian idle "只要我们团结一心，听从向导的指引，我们定能度过难关。"
+  "沙尘暴呼啸而至，张骞和使团成员们紧紧靠在一起，躲避着风沙的侵袭。"
+  "沙尘暴持续了好几个小时，当风势终于减弱时，张骞和使团成员们纷纷从沙丘后走出。"
+  talk MissionMember2 idle "（一脸疲惫）大人，我们的水和食物都不多了，接下来怎么办？"
+  talk PlayerZhangQian idle "（沉思片刻）我们必须尽快找到下一个水源地。但在那之前，我们要节约每一滴水，每一份食物。"
+  set_screen game3_desert_camel 0 slide-top 1000
+  "此时，一个眼尖的使团成员发现了远处的骆驼队。"
+  
+  talk MissionMember2 idle "（兴奋地指着远处）大人，那边有骆驼队！也许他们知道哪里有水源。"
+  talk PlayerZhangQian idle "（点头）好，我们过去问问。"
+  "张骞和使团成员们走向骆驼队，经过一番沟通，骆驼队的主人表示愿意带领他们前往附近的水源地。"
+  talk CamelOwner idle "你们真是幸运，这附近有一个隐蔽的绿洲，那里的水源丰富，你们可以在那里休息和补充食物。"
+  talk PlayerZhangQian idle "（感激地）多谢你的帮助，我们一定会记住你的恩情。"
+  set_screen game3_desert_oasis 0 slide-top 1000
+  "在骆驼队的带领下，张骞和使团成员们找到了绿洲，并在那里得到了充足的休息和补充。他们重新整装待发，继续踏上了前往西域的旅程。"
+  jump main

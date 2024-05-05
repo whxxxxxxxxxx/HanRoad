@@ -1,0 +1,14 @@
+roadFinding:
+  "欢迎来到任务"
+  set_screen roadFinding 0 slide-top 1000
+  talk AncientVillager idle "年轻人你是哪位？来这里干嘛？这里很危险。"
+  talk player idle "我是来自于汉朝出使大月氏的使者，我需要找到最近的穿越山脉的道路才可以完成我的使命，您知道接下来的路该怎么走吗？"
+  talk AncientVillager idle "我从小就生活在这里，我可以告诉你如何走出这座大山，可你需要帮我一个忙，我们村子的庄稼快成熟了但我收割速度太慢了，庄稼放到地里会不时有鸟来偷吃，你可以帮我想一个好办法吗？"
+  talk player idle "这很简单，你只需要拿稻草摆成人形，插在地里，伪装成人在田地里恐吓鸟儿就好。"
+  "果不其然，这个方法效果显著，村民的问题得到了解决，带使者走出了大山。"
+  talk player idle "我终于走通了这个穿越山脉的道路！"
+  complete_objective roadFinding roadFound
+  complete_quest roadFinding
+  "使者完成了任务，并如实汇报给汉宣帝，自此《大月氏传》开始有条不紊的撰写，同时此次出使也被写入了“汉简”。"
+  "用户成功帮助汉朝和大月氏建立友好关系，打开了丝绸之路的新篇章。"
+  jump main

@@ -1,0 +1,98 @@
+---
+config:
+  imagesPath: img/characters/
+characters:
+  game:
+    name: ""
+    color: white
+  player:
+    style:
+      color: orange
+    name: 你
+  game1playerHundredClothes:
+    name: 你
+    sprites:
+      idle: hundredClothes.png
+    style:
+      color: orange
+  game1playerCommonClothes:
+    name: 你
+    sprites:
+      idle: commonClothes.webp
+    style:
+      color: orange
+  soldier:
+    name: 士兵
+    sprites:
+      idle: soldier_idle.webp
+    style:
+      color: brown
+  OtsukiKing:
+    name: 大月氏国王
+    sprites:
+      idle: OtsukiKing.webp
+    style:
+      color: red
+  AncientVillager:
+    name: 古村民
+    sprites:
+      idle: ancientVillager.webp
+    style:
+      color: blue
+  ZhangQian:
+    name: 张骞
+    sprites:
+      idle: zhangqian.webp
+    style:
+      color: green
+  Passerby:
+    name: 路人
+    sprites:
+      idle: passerby.webp
+    style:
+      color: yellow
+  Blacksmith:
+    name: 铁匠
+    sprites:
+      idle: blacksmith.webp
+    style:
+      color: purple
+  Silk:
+    name: 丝绸
+    sprites:
+      idle: silk.webp
+    style:
+      color: pink
+  Manuscript:
+    name: 手稿
+    sprites:
+      idle: manuscript.webp
+    style:
+      color: grey
+
+  PlayerZhangQian:
+    name: 张骞
+    sprites:
+      idle: playerZhangQian.webp
+    style:
+      color: green
+  MissionMember1:
+    name: 使团成员甲
+    style:
+      color: green
+  MissionMember2:
+    name: 使团成员乙
+    style:
+      color: green
+  MissionMember3:
+    name: 使团成员丙
+    style:
+      color: green
+  Guide:
+    name: 向导
+    style:
+      color: green
+  CamelOwner:
+    name: 骆驼队主人
+    style:
+      color: green

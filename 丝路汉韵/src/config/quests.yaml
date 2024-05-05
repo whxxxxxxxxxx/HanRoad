@@ -1,0 +1,11 @@
+categories:
+  - id: default
+    title: Default quest category
+quests:
+  roadFinding:
+    title: 寻找道路
+    description: 寻找最近的可以穿越山脉的道路
+    background: img/backgrounds/game4/DeepMountain.webp
+    objectives:
+      roadFound:
+        description: 找到了一条可以穿越山脉的道路

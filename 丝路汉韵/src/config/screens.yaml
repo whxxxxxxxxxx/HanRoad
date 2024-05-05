@@ -1,0 +1,47 @@
+screens:
+  default:
+    background: img/backgrounds/mainbackground.jpg
+  game:
+    background: img/backgrounds/map.webp
+
+  game1:
+    background: img/backgrounds/game1/post.webp
+
+  game1_cell:
+    background: img/backgrounds/game1/cell.webp
+
+  game1_street:
+    background: img/backgrounds/game1/QiuCiStreet.webp
+
+  game1_blacksmith:
+    background: img/backgrounds/game1/Blacksmith.webp
+  game4:
+    background: img/backgrounds/game4/court.webp
+
+  roadFinding:
+    background: img/backgrounds/game4/DeepMountain.webp
+
+  ChangAn:
+    background: img/backgrounds/game2/ChangAn.webp
+
+  Warehouse:
+    background: img/backgrounds/game2/warehouse.webp
+
+  game3_desert:
+    background: img/backgrounds/game3/desert.webp
+
+  game3_desert_forward:
+    background: img/backgrounds/game3/desert_forward.webp
+
+  game3_desert_kettle:
+    background: img/backgrounds/game3/desert_kettle.webp
+  game3_desert_map:
+    background: img/backgrounds/game3/desert_map.webp
+  game3_desert_guide:
+    background: img/backgrounds/game3/desert_guide.webp
+  game3_desert_miss:
+    background: img/backgrounds/game3/desert_miss.webp
+  game3_desert_camel:
+    background: img/backgrounds/game3/desert_camel.webp
+  game3_desert_oasis:
+    background: img/backgrounds/game3/desert_oasis.webp
